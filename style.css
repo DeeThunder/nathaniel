@@ -373,7 +373,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Footer */
 .site-footer {
-    background-color: #da291c;
+    background-color: var(--footer-bg-color);
     color: var(--text-color-light);
     padding: 40px 20px 20px;
     text-align: center;
@@ -532,10 +532,16 @@ h1, h2, h3, h4, h5, h6 {
 
     .book-item {
         width: 180px;
-        height: 234.38px;
         margin-bottom: 20px;
     }
 
+    .book-item img {
+        height: 250px;
+        width: 100%;
+        object-fit: cover; 
+    }
+
+    
     .footer-contact-info address,
     .footer-contact-info a {
         font-size: 0.9em;
@@ -569,6 +575,11 @@ h1, h2, h3, h4, h5, h6 {
     .book-item {
         width: 150px;
     }
+
+    .book-item img {
+        height: 200px;
+    }
+
 
     .footer-contact-info address,
     .footer-contact-info a {
